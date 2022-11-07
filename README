@@ -1,3 +1,7 @@
+Forking to make this work with Beagleboards.  Currntly working on Beagleboard Blue as it has IMU 9250 and BMP 280 on boarf already, and a crap otn of ports and stuff for GPS and other items.
+
+
+
 You may want to run pypilot as a service, see the scripts/debian directory
 
 Clone the data repository and copy data:
