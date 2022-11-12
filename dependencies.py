@@ -95,7 +95,7 @@ class wiringpi_dep(dep):
     def test(self, check=False):
         try:
             f = open('/sys/firmware/devicetree/base/model')
-            pi = 'Raspberry Pi' in f.readline()
+            pi = '' in f.readline()
             f.close()
             if pi:
                 print('detected', pi)
